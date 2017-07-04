@@ -29,7 +29,7 @@ RUN ln -s /usr/local/openresty/luajit/lib64/lua/5.1/* /usr/local/openresty/luaji
 
 # Ports
 EXPOSE 8080
-EXPOSE 8180
+EXPOSE 8181
 
 # Start the container
 CMD ["/opt/app-root/src/bin/entrypoint"]
