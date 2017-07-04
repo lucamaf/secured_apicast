@@ -10,7 +10,7 @@ ENV INSTALL_LOCATION /usr/local/openresty/luajit
 RUN yum install -y expat-devel net-tools
 RUN yum install -y gcc lua-devel expat-devel
 RUN yum group install -y "Development Tools"
-RUN ln -s /usr/local/openresty/luajit/include/luajit-2.1/* /usr/include/
+#RUN ln -s /usr/local/openresty/luajit/include/luajit-2.1/* /usr/include/
 RUN luarocks install luaexpat --tree=/usr/local/openresty/luajit
 RUN luarocks install luaxpath --tree=/usr/local/openresty/luajit
 
