@@ -1,5 +1,5 @@
 # Pull from Red Hat
-FROM quay.io/3scale/apicast:latest
+FROM quay.io/3scale/apicast:master
 
 USER root
 
